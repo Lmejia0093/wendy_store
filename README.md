@@ -1,0 +1,1 @@
+# wendy_store
