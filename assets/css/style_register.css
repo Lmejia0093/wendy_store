@@ -1,0 +1,52 @@
+
+
+.containerOwnApp {
+  box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+   padding-top: 15px;
+}
+ 
+
+
+
+.login-page {
+  padding: 18% 0 0;
+  margin: 0 auto 100px;
+  max-width: 200px;
+  position: relative;
+
+}
+ 
+.login-form {
+   box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+ 
+.login-form-header {
+   padding-top: 80px;
+}
+ 
+.login-from-row {
+   padding-top: 16px;
+   padding-bottom: 16px;
+}
+ 
+.login-form-font-header {
+   font-size:10px; 
+   font-weight: bold;
+}
+ 
+.login-form-font-header span {
+   color: #007C9B;
+   size: 10px;
+}
+
+.caja-texto{padding: 10px 10px 0 10px; position:relative;}
+.bordes-transparentes{
+   text-align:center; 	
+   background:#FFF;
+   border: 15px solid rgba(0, 0, 0, 0.5);
+   padding: 10px 10px 0 10px;
+   border-radius: 5px;    
+   position:absolute;
+   top:45px;
+   left:10%;
+   width:250px;}
