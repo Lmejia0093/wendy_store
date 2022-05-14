@@ -11,7 +11,7 @@
                   <img class="profile-user-img img-fluid img-circle"
                        src="<?php echo $_SESSION['imagen']  ?>"
                        alt="User profile picture">
-                </div>
+                
 
                 <h3 class="profile-username text-center"><?php echo $_SESSION['user'] ?></h3>
 
@@ -28,15 +28,18 @@
                 </ul>
 
                 <a  href="?c=cerrar_session" class="btn btn-danger btn-block"><b>Cerrar Session</b></a>
-              </div>
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-
-           
-          </div>
-          <!-- /.col -->
+                <a  href="?c=chat" class="btn btn-warning btn-block"><b>Chat</b></a>
+              
+              </div>   
+              </div>   <!-- /.card-body -->
+            
+</div>  <!-- /.card -->
        
-        <!-- /.row -->
+           
+        
+</div> <!-- /.col -->
+       
+      </div>  <!-- /.row -->
+
       </div><!-- /.container-fluid -->
     </section>

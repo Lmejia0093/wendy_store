@@ -20,6 +20,8 @@ class login_controller  {
 public function login_in(){
     require_once 'vista/login/login.php';
 }
+
+
   
     
 public function login_validar(){
@@ -71,18 +73,16 @@ public function login_validar(){
                    if ( $_SESSION['rol'] == "1") {
                     
                    
-                        $TITULO = "Vista/admin";
-                        require_once 'vista/menu_principal/encabezado.php';
-                        require_once "vista/login/perfil.php";
-                        require_once 'vista/menu_principal/pie.php';
+                       
+                        header('location: ?c=index');
+                      //  require_once 'vista/menu_principal/encabezado.php';
+                      //  require_once "vista/login/perfil.php";
+                       // require_once 'vista/menu_principal/pie.php';
                  
                    }
                     else
                     {
-                        $TITULO = "Vista/user";
-                        require_once 'vista/menu_principal/encabezado.php';
-                        require_once "vista/login/perfil.php";
-                        require_once 'vista/menu_principal/pie.php';
+                        header('location: ?c=user');
                     }
                 
 

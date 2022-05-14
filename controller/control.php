@@ -23,10 +23,10 @@ class control extends vistacontroller{
     }
 
     
-    public function ventaspdf(){
-        // require_once 'vista/menu_principal/encabezado.php';
-         require_once "vista/ventas/reporteventas.pdf";
-       //  require_once 'vista/menu_principal/pie.php';
+    public function chat(){
+       require_once 'vista/menu_principal/encabezado.php';
+       require_once "vista/login/chat.php";
+       require_once 'vista/menu_principal/pie.php';
 
 }
  
@@ -67,8 +67,25 @@ class control extends vistacontroller{
           
        
         }else {
-            echo $user_logiado;
+            
            $this->vista_index();
+        }
+        
+        
+    }
+
+    public function user(){
+
+        $ic = new UserSession();  
+        $user_logiado = $ic->getuser();
+       
+        if (empty($user_logiado)) {
+           $this->vista_login();
+          
+       
+        }else {
+            
+           $this->vista_user();
         }
         
         

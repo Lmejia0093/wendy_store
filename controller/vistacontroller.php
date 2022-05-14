@@ -22,11 +22,22 @@ class vistacontroller {
         require_once "vista/ventas/vista_ventas.php";
         require_once 'vista/menu_principal/pie.php';
 
+       }
+
+       public function vista_user(){
+
+        
+        $TITULO = "Vista/User";
+       
         
         
-        
-      
-    }
+        require_once 'vista/menu_principal/encabezado.php';
+        require_once "vista/login/chat.php";
+        require_once 'vista/menu_principal/pie.php';
+
+       }
+
+
 
 public function vista_ordenes(){
        $TITULO = "Ordenes";
