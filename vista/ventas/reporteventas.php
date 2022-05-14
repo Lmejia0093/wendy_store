@@ -1,7 +1,8 @@
 <?php
 
 
-require_once "vista/REPORTES/fpdf184/fpdf.php";
+require_once "REPORTES/fpdf184/fpdf.php";
+
 
 $pdf = new FPDF();
 $pdf->AddPage();

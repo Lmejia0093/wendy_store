@@ -81,6 +81,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
         <div class="info">
           <a href="?c=perfil_user" class="d-block"><?php echo  $_SESSION['nombre']; ?></a>
+         
         </div>
       </div>
 

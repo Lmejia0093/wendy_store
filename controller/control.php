@@ -30,6 +30,12 @@ class control extends vistacontroller{
 
 }
  
+public function productos_ver(){
+    require_once 'vista/menu_principal/encabezado.php';
+    require_once "vista/producto/producto.php";
+    require_once 'vista/menu_principal/pie.php';
+
+}
     
     public function vista_login(){
         $login = new login_controller();

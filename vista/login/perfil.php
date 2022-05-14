@@ -16,6 +16,7 @@
                 <h3 class="profile-username text-center"><?php echo $_SESSION['user'] ?></h3>
 
                 <p class="text-muted text-center">Software Engineer</p>
+                <div class="status"> <i class="fa fa-circle offline"></i> online </div>
 
                 <ul class="list-group list-group-unbordered mb-3">
                 
